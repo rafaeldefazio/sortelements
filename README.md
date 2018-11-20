@@ -1,8 +1,11 @@
 Trabalho semestral da Universidade de São Paulo, Informática Biomédica. Implementação de algoritmos de ordenação, com passo a passo (shell sort).
 
 ## screenshots
+
+### GUI
 ![GUI](http://u.cubeupload.com/rafaeldefazio/ordenarelementos.png)
 
+### shell sort step by step
 ![Shell Sort step by step](http://u.cubeupload.com/rafaeldefazio/shellsortstepbystep.png)
 
 ## requerimentos
