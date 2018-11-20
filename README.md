@@ -22,6 +22,9 @@ as arrays ordenadas têm como destino a pasta output, salvas em `.csv`
 ### passo a passo do shell sort
 O passo a passo é gerado pelos arquivos `EscreverHTML.py` e `LerShell.py`, salvando em `.html` a ilustração da ordenação
 
+
+
+
 ```/translate```
 # sortelements
 Computation, University of São Paulo's  semester project: sort algorithms, app implementation and step by step shell sort
