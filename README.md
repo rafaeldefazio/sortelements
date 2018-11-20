@@ -25,7 +25,7 @@ O passo a passo é gerado pelos arquivos `EscreverHTML.py` e `LerShell.py`, salv
 
 
 
-```/translate```
+# `/translate`
 # sortelements
 Computation, University of São Paulo's  semester project: sort algorithms, app implementation and step by step shell sort
 
