@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shell Sort</title>
+        <style type="text/css">
+            span.numero{
+                        cursor: default;
+                    }
+            
+                    p{
+                        text-align: center;
+                    }
+            
+                    p.atual{
+                        font-size: 2em;
+                        color: grey;
+                    }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row valign-wrapper">
+                <div class="col s8 offset-s2 valign">
+                    <h1>Shell Sort</h1>
+                    <br/><br/><h3><span class="badge">Array inicial</span>[9, 8, 7, 5, 3, 2, 1, 100, 85, 20]</h3><br/><div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Trocar elemento</span>
+                            <p><span class="badge">Gap: 5</span><span class="waves-effect waves-light btn numero">9</span> com <span class="waves-effect waves-light btn numero">2</span></p>
+                        </div>
+                    </div>
+                    <div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Array atualizado</span>
+                            <p class="atual">[2, 8, 7, 5, 3, 9, 1, 100, 85, 20]</</p>
+                        </div>
+                    </div><div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Trocar elemento</span>
+                            <p><span class="badge">Gap: 5</span><span class="waves-effect waves-light btn numero">8</span> com <span class="waves-effect waves-light btn numero">1</span></p>
+                        </div>
+                    </div>
+                    <div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Array atualizado</span>
+                            <p class="atual">[2, 1, 7, 5, 3, 9, 8, 100, 85, 20]</</p>
+                        </div>
+                    </div><div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Trocar elemento</span>
+                            <p><span class="badge">Gap: 2</span><span class="waves-effect waves-light btn numero">7</span> com <span class="waves-effect waves-light btn numero">3</span></p>
+                        </div>
+                    </div>
+                    <div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Array atualizado</span>
+                            <p class="atual">[2, 1, 3, 5, 7, 9, 8, 100, 85, 20]</</p>
+                        </div>
+                    </div><div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Trocar elemento</span>
+                            <p><span class="badge">Gap: 2</span><span class="waves-effect waves-light btn numero">100</span> com <span class="waves-effect waves-light btn numero">20</span></p>
+                        </div>
+                    </div>
+                    <div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Array atualizado</span>
+                            <p class="atual">[2, 1, 3, 5, 7, 9, 8, 20, 85, 100]</</p>
+                        </div>
+                    </div><div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Trocar elemento</span>
+                            <p><span class="badge">Gap: 1</span><span class="waves-effect waves-light btn numero">2</span> com <span class="waves-effect waves-light btn numero">1</span></p>
+                        </div>
+                    </div>
+                    <div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Array atualizado</span>
+                            <p class="atual">[1, 2, 3, 5, 7, 9, 8, 20, 85, 100]</</p>
+                        </div>
+                    </div><div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Trocar elemento</span>
+                            <p><span class="badge">Gap: 1</span><span class="waves-effect waves-light btn numero">9</span> com <span class="waves-effect waves-light btn numero">8</span></p>
+                        </div>
+                    </div>
+                    <div class="card light-grey darken-1">
+                        <div class="card-content dark-grey-text">
+                            <span class="card-title">Array atualizado</span>
+                            <p class="atual">[1, 2, 3, 5, 7, 8, 9, 20, 85, 100]</</p>
+                        </div>
+                    </div>
+                    <br/>
+                    <h3><span class="badge">Array ordenada</span>[1, 2, 3, 5, 7, 8, 9, 20, 85, 100]</h3>
+                </div></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script></body></html>

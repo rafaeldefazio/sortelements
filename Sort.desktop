@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Ordenar Elementos
+Comment=Trabalho de IC2
+Exec=python3 /home/rafael/Área\ de\ Trabalho/sortelements/OrdenarExec.py
+Icon=/home/rafael/Área de Trabalho/sortelements/icon.png
+Path=/home/rafael/Área de Trabalho/sortelements/
+Terminal=false
+Type=Application
+Categories=Application;
